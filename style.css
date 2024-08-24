@@ -1,0 +1,33 @@
+.container-height {
+  height: 100%;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.fire-table {
+  border-collapse: collapse;
+}
+
+.fire-table__column {
+  border: 1px solid #000;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-family: monospace;
+  position: relative;
+  padding: 0;
+}
+
+.fire-table__column-fire {
+  width: 4px;
+  height: 4px;
+}
+
+.fire-table__column__index {
+  color: #999;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
